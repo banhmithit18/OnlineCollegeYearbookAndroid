@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">OnlineCollegeYearbook</string>
+    <string name="logo">College Yearbook</string>
+    <string name="logo_img">Image of logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone number</string>
+    <string name="Address">Address</string>
+    <string name="select_type">Select user type</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up_hint">Not having account ?</string>
+    <string name="button_back">Back to pre layout</string>
+    <string name="student_name">Dang Khoa</string>
+    <string name="student_roll_no">00000028</string>
+    <string name="student_year">2021</string>
+    <string name="student_birthday">01/01/2001</string>
+    <string name="student_course">ADSE</string>
+    <string name="student_gmail">khoadh28@gmail.com</string>
+    <string name="student_phone">+84 000 000 000</string>
+    <string name="student_address">304/12 Somestreet, Somedistrict, Somecity</string>
+    <string name= "student_about">"Neque porro quisquam est qui
+dolorem ipsum quia dolor sit amet, consectetur, adipisci veli"</string>
+    <string name="about_me">About me</string>
+    <string name="button_tab">button select </string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="sign_out">Sign out</string>
+    <string name="achievement">Achievements</string>
+    <string name="avatar">avatar</string>
+    <string name="drawer_icon">drawer_icon</string>
+    <string name="designation">Prof</string>
+    <string name="exp">10 year +</string>
+    <string name="subject">Android</string>
+    <string name="save">Save</string>
+    <string name="select_student_achievement">Student Achievements</string>
+    <string name="select_teacher_achievement">Teacher Achievements</string>
+    <string name="find">Find</string>
+    <string name="action">Action</string>
+    <string name="name">Name</string>
+    <string name="admin">Admin</string>
+    <string name="add_teacher">Add teacher</string>
+    <string name="add_student">Add student</string>
+    <string name="roll_no">Roll no</string>
+    <string name="branch">Branch</string>
+    <string name="designation_hint">Designation</string>
+    <string name="subject_hint">Subject</string>
+    <string name="working_exp">Working exp</string>
+
+
 </resources>

@@ -1,0 +1,174 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    android:stretchColumns="0"
+    >
+
+    <TableRow
+        android:layout_marginTop="120dp"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/name1"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/name2"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:paddingEnd="10dp"
+            android:text="@string/action"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/name3"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ha Dang Khoa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/name4"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:onClick="changeStudentFindLayout"
+            android:text="Detail"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/name5"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Tran Huu Phuoc"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/name6"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Detail"
+            android:onClick="changeStudentFindLayout"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/name7"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Nguyen Quoc Trung"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/name8"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Detail"
+            android:onClick="changeStudentFindLayout"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+    </TableRow>
+    <TableRow
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/name9"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ly Hung Phat"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/name10"
+            style="@style/text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Detail"
+            android:onClick="changeStudentFindLayout"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+    </TableRow>
+
+</TableLayout>

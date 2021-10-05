@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Spinner
+        android:id="@+id/year_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/rounded_textedit"
+        android:entries="@array/select_year"
+        android:popupBackground="@drawable/rounded_textedit"
+        android:spinnerMode="dropdown"
+        android:theme="@style/theme_spinner"
+        app:layout_constraintBottom_toTopOf="@+id/button_find"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/branch_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="416dp"
+        android:background="@drawable/rounded_textedit"
+        android:entries="@array/select_branch"
+        android:popupBackground="@drawable/rounded_textedit"
+        android:spinnerMode="dropdown"
+        android:theme="@style/theme_spinner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/year_type" />
+
+    <Button
+        android:id="@+id/button_find"
+        style="@style/button"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="305dp"
+        android:background="@drawable/button"
+        android:text="@string/find"
+        android:onClick="changeAchievementResultLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/year_type"
+        tools:ignore="UsingOnClickInXml" />
+
+    <ImageButton
+        android:id="@+id/button_back_achievement_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="111dp"
+        android:onClick="changeAchievementSelectLayout"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/button_back"
+        app:layout_constraintBottom_toTopOf="@+id/year_type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>

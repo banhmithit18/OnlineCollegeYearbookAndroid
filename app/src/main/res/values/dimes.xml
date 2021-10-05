@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dimes for design 3-->
+    <dimen name="width_input_text">392dp</dimen>
+    <dimen name="margin_input_bottom">10dp</dimen>
+    <dimen name="margin_input_start">9dp</dimen>
+    <dimen name="margin_input_end">9dp</dimen>
+</resources>
